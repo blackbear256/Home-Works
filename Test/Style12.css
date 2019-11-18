@@ -1,0 +1,343 @@
+
+body{
+background: #3e3b4a ;
+}
+.container{
+    max-width: 1020px;
+    margin: 0 auto;  
+}
+.header-bar{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0;
+    margin-bottom: 70px; 
+}
+.header-bar a{
+text-decoration: none;
+}
+.one{
+color: #898691;
+font-family: "Open Sans";
+font-size: 12px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 2.4px;
+}
+.logo{
+    background-color: transparent;
+    border: none;
+    position: relative;
+    padding: 0;
+}
+.logo::after{
+    content: "MENU"; 
+    position: absolute;
+    top: 4px;
+    left: 32px;
+    color: #898691;
+font-family: "Open Sans";
+font-size: 12px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 2.4px;
+position: absolute;
+cursor: pointer;
+}
+.logo1::before{
+    content: "Search"; 
+    position: absolute;
+    top: 4px;
+    left: -78px;
+    color: #898691;
+font-family: "Open Sans";
+font-size: 12px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 2.4px;
+position: absolute;
+cursor: pointer;
+}
+.logo1{
+    position: relative;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+.demt{
+color: #ffffff;
+font-family: "Open Sans";
+font-size: 48px;
+font-weight: 700;
+text-transform: uppercase;
+text-decoration: none;
+margin-bottom: -21px;
+display: block;
+}
+.dmt{
+color: #898691;
+font-family: "Open Sans";
+font-size: 13px;
+font-weight: 400;
+line-height: 0;
+text-decoration: none;
+margin-bottom: 75px;
+}
+.dmt2{
+    display: block;
+    text-align: center;
+    margin-top: 55px;
+    
+}
+.foto :first-child{
+    height: 23px;
+    padding-left: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer p{
+color: #898691;
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 400;
+}
+.buster-buld{
+    background-image: url(./Image/Vector\ Smart\ Object.png);  
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+.home{
+    
+color: #301206;
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 700;
+text-decoration: none;
+text-transform: uppercase;
+letter-spacing: 2.8px;
+padding: 40px 0 0 0; 
+display: inline-block;
+}
+.buster-buld a:hover{
+    color: tomato;
+}
+.buster-buld a:hover:after{
+    opacity: 1;
+    transform: scaleX(1);
+}
+.buster-buld h3{
+color: #ffffff;
+font-family: "Open Sans";
+font-size: 72px;
+font-weight: 700;
+line-height: 76px;
+margin: 0px 0px -25px 0px;
+
+}
+.buster-buld p{
+ 
+width: 299px;
+height: 124px;
+color: #ffffff;
+font-family: "Open Sans";
+font-size: 35px;
+margin-bottom: 89px;
+}
+.buster-wight{
+    max-width: 340px;
+}
+.style-buttom{
+height: 40px;
+color: #ffffff;
+font-family: "Open Sans";
+font-size: 20px;
+font-weight: 700;
+border: none;
+background: transparent;
+margin-bottom: 40px;
+}
+.style-buttom:hover{
+border: 3px solid #ffe18f;
+}
+.peak{
+    background-image: url(./Image/Vector\ Smart\ Object2.png);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    margin-bottom: 20px;
+    min-width: 620px;
+}
+.bbp{
+color: #ffffff;
+font-family: "Open Sans";
+font-size: 48px;
+font-weight: 700;
+margin: 0;
+}
+.paragraf{
+color: #ffffff;
+font-family: "Open Sans";
+font-size: 24px;
+font-weight: 400;
+margin:0px 90px 189px 0px ;
+display: block;
+line-height: 1.3em;
+
+}
+.peak-wight{
+    max-width: 300px;
+}
+.all{
+     display: flex; 
+     margin-bottom: 20px;
+}
+.one{
+    text-align: center;
+    background-image: url(./Image/Vector\ Smart\ Object3.png);
+    width: 260px;
+    background-repeat: no-repeat;
+    text-transform: capitalize;
+   
+}
+
+.one a{
+    color: #ffc7b0;
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 700;
+line-height: 76px;
+letter-spacing: 4px;
+text-decoration: none;
+margin-top: 1px;
+margin-bottom: 99px;
+display: block;
+}
+.one h3{
+color: #ffffff;
+font-family: "Open Sans";
+font-size: 36px;
+font-weight: 700;
+display: block;
+margin-bottom: 112px;
+
+}
+.one button{
+width: 93px;
+height: 42px;
+background-color: #ffe18e;
+border: none;
+margin-bottom: 40px;
+}
+.two{
+      margin: 0 20px;  
+    background-image: url(./Image/Vector\ Smart\ Object4.png);
+    background-repeat: no-repeat;
+    width:260px;
+}
+.two a{
+  margin-bottom: 82px;
+  display: block;
+}
+.two h3{
+    margin-bottom: 82px;
+}
+.three{
+    background-image: url(./Image/Vector\ Smart\ Object5.png);
+    width:460px;
+    background-repeat: no-repeat;
+    
+}
+.dupka{
+    padding-left: 40px;
+}
+.dupka a{
+    color: #ffc7b0;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+   
+    letter-spacing: 4px;
+    text-decoration: none;
+    margin-top: 29px;
+    margin-bottom: -30px;
+    display: block;
+}
+.dupka h3{
+color: #ffffff;
+font-family: "Open Sans";
+font-size: 36px;
+font-weight: 700;
+margin-bottom: -16px;
+
+}
+.dupka p{
+color: #ffffff;
+font-family: "Open Sans";
+font-size: 20px;
+font-weight: 400;
+
+margin-bottom: 177px;
+}
+.dupka2{
+    margin-right: 100px;
+}
+.forma{
+    display: flex;
+}
+.forma2{
+    background-color: #eb7b61;
+    margin-bottom: 20px;
+    margin-left: -16px;
+    text-align: center;
+}
+.forma2 h3{
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 300;
+    margin-top: 65px;
+    position: relative;
+}
+.forma2 h3::after{
+    content: "..."; 
+    position: absolute;
+    top: 51px;
+    left: 175px;
+    color: white;
+    font-size: 34px;
+}
+.forma2 p{
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 30px;
+    letter-spacing: 0.1px;
+}
+.ququmber{
+    margin: 0 50px;
+}
+.pochta{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    border: 2px solid white;
+    background: transparent;
+    height: 40px;
+    width: 280px;
+    color: white;
+    margin-bottom: 15px;
+    font-size: 23px;
+}
+.knopka{
+    height: 40px;
+    width: 280px;
+    font-size: 22px;
+    background-color: #66689c;
+    border: none;
+}
+.abzac2{
+    font-weight: 300;
+    font-size: 23px;
+    color: white;
+}
